@@ -1,0 +1,209 @@
+/*Styling for general Elements*/
+body{
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.main{
+    font-family: 'Roboto Slab', serif;
+}
+
+img{
+	vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+a .fa {
+    color: #FFFFFF;
+}
+
+p {
+    font-size: 14px;
+    line-height: 2.15;
+}
+
+/*Styling for Navigation*/
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+	border: 0;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+
+.navbar-fixed-top .navbar-right li a {
+	color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar-fixed-top .navbar-right li a:hover{	
+	color: #00ACFD;
+}
+
+.navbar-default .navbar-brand {
+  color: #00ACFD;
+  font-size: 20px;  
+}
+
+/*Styling for header*/
+header{
+	text-align: center;
+	color: #FFFFFF;
+	background-image: url(../images/header-bg.jpg);
+	background-attachment: scroll;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 70px;
+    margin-top: 0;
+    font-weight: normal;
+}
+
+.intro-text {
+	min-height: 630px;
+    text-align: center;
+    position: relative;
+}
+
+.intro-text .head-text{
+    padding-top: 8%;
+    letter-spacing: 20px;
+}
+
+.intro-text .sub-text {
+    font-size: 25px;
+    margin-bottom: 40px;
+    margin-top: 5%;
+}
+
+.intro-text .sub-text .text-inline{
+    color: #00ACFD;
+}
+
+.email-collect{
+    text-transform: none;
+    text-align: center;
+    width: 532px;;
+    margin: 8% 50% 0 20%;
+}
+
+.email-collect .input-group, .email-collect p {
+    width: 532px;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.email-collect p {
+    font-size: 20px;
+    letter-spacing: 7px;
+}
+
+.blockSlide-down {
+    bottom: 30px;
+    margin-top: 15px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 50;
+    text-transform: none;
+}
+
+#slide-down{
+    background: url("../images/downarrow.png") no-repeat scroll center bottom / auto 40%;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-family: "Lato";
+    font-size: 18px;
+    margin: 0 auto;
+    opacity: 0.3;
+    padding-bottom: 30px;
+    text-align: center;
+    transition-duration: 0.2s;
+    transition-property: padding-bottom;
+    width: 150px;
+    text-decoration: none;
+}
+
+#slide-down:hover{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+/*Styling for pre-footer*/
+.pre-footer{
+    height: 563px;
+    background-color: #161616;
+    color: #FFF;
+    padding-bottom: 3%;
+}
+
+.pre-footer .main-content {
+    text-align: center;
+    margin-top: 10%;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+}
+
+/*.pre-footer .main-content h2{
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+*/
+.pre-footer .sign-up{
+    text-align: center;
+    width: 432px;
+    margin:7% 7% 0 5%;
+}
+
+.pre-footer .sign-up .lead-text{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 74px;
+    line-height: 74px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #000;
+    background: #fff;
+}
+
+/*Styling for Footer*/
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+    background-color: #111111;
+    color: #666666;
+}
+
+footer span.copyright, footer span.sub-text {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+footer ul.quicklinks .fa {
+    color: #666666;
+}
+
+.navbar-color {
+    background-color: #00ACFD;
+}
